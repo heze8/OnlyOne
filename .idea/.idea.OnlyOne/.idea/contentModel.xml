@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\heze8\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\heze8\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_OnlyOne.-1617128049.00" t="ExcludeRecursive" />
+    <e p="D:\UnityHub\Unity\OnlyOne" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="BossCaller.cs" t="Include" />
+          <e p="BossStateMachine.cs" t="Include" />
+          <e p="Buff.cs" t="Include" />
+          <e p="Bullet.cs" t="Include" />
+          <e p="CharacterController2D.cs" t="Include" />
+          <e p="Deppreaceated" t="Include">
+            <e p="(Deppreceated) BigBullet.cs" t="Include" />
+            <e p="(Deppreceated) EnemyBullet.cs" t="Include" />
+          </e>
+          <e p="Enemy" t="Include">
+            <e p="EnemyAI.cs" t="Include" />
+            <e p="EnemyBoss.cs" t="Include" />
+            <e p="EnemyGhost.cs" t="Include" />
+            <e p="EnemyManager.cs" t="Include" />
+            <e p="EnemySpammer.cs" t="Include" />
+          </e>
+          <e p="GameManager.cs" t="Include" />
+          <e p="HealthSystem.cs" t="Include" />
+          <e p="LevelGeneration" t="Include">
+            <e p="Chunk.cs" t="Include" />
+            <e p="ColorToPrefab.cs" t="Include" />
+            <e p="LevelGenerator.cs" t="Include" />
+          </e>
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="PowerUp.cs" t="Include" />
+          <e p="Singleton.cs" t="Include" />
+          <e p="TempText.cs" t="Include" />
+          <e p="TimeSystem.cs" t="Include" />
+          <e p="ValueRandomGenerator.cs" t="Include" />
+          <e p="Weapon.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="OnlyOne.sln" t="IncludeFlat" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
