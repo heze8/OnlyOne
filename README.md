@@ -1,5 +1,5 @@
 # OnlyOne
-A game made for Mark Brown's Game Jam. Featuring a little alien. Made with only one sprite.
+A game made with only one sprite. Featuring a little alien.
 Link to Playable game: https://heze8.itch.io/only-one
 
 W, A, S, D to move your little character. Space for Jump. Left Click to Shoot.
