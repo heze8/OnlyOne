@@ -16,7 +16,7 @@ public class GameManager : Singleton<GameManager>
     public Tilemap tilemap;
     public ColorToPrefab[] colorMappings;
     private int enemiesKilled = 0;
-    public GameObject player, powerUp;
+    public GameObject player, powerUp, playerPrefab;
     public float speedPerBuff = 2f;
     public float jumpPerBuff = 1f;
     public float shootDelay = 1f;
@@ -42,7 +42,7 @@ public class GameManager : Singleton<GameManager>
         else
         {
             initialized = true;
-            player = Instantiate(player);
+            player = Instantiate(playerPrefab);
         }
         
         player.transform.position = new Vector2(165, 41.6f);
@@ -268,7 +268,9 @@ public class GameManager : Singleton<GameManager>
     IEnumerator StopRestart()
     {
         yield return new WaitForSecondsRealtime(2.5f);
+        Destroy(player);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        initialized = false;
         losePanel.SetActive(false);
         Time.timeScale = 1;
         enabled = true;
